@@ -1,5 +1,8 @@
 language: go
 
+runtime:
+  nodePool: dynamic__x86_64__CentOS_7__c4_large
+  
 go:
   - 1.10.5
   - 1.11.2
